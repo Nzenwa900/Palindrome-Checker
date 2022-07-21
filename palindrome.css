@@ -29,10 +29,27 @@ p {
     border-radius: 8px;
 }
 input {
-    width: 75%;
+    width: 70%;
     border: none;
     outline: none;
     border-bottom: 2px solid #f25f4c;
-    padding: 2rem .5rem;
+    padding: 1rem .5rem;
     border-radius: 5px;
+    font-size: 1.6rem;
+}
+button {
+    width: 25%;
+    padding: 1rem .5rem;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #f25f4c;
+    border-radius: 3px;
+}
+p.result{
+    margin-top: 3.5rem;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #0f0e17;
 }
